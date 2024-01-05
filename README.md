@@ -6,26 +6,14 @@
 
 ## Teknologi yang digunakan:
 
- Analytics
-1. Google Analytics
-
- Font scripts
-1. Google Font API
-2. Font Awesome
-
- Web frameworks
-1. Laravel
-
- Programming languages
-1. PHP 8.1.2
-
- CDN
-1. Google Hosted Libraries
-
- JavaScript libraries
-1. core-js 2.6.9
-2. jQuery 3.6.0
-3. DataTables 1.10.25
-
- UI frameworks
-1. Bootstrap
+1. Sanctum Package Laravel
+2. Google Analytics
+3. Google Font API
+4. Font Awesome
+5. Laravel Framework
+6. PHP 8.1.2
+7. Google Hosted Libraries
+8. core-js 2.6.9
+9. jQuery 3.6.0
+10. DataTables 1.10.25
+11. Bootstrap
