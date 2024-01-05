@@ -29,10 +29,12 @@ Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
 Route::get('/karyawan', [KaryawanController::class, 'showCreateForm'])->name('karyawan');
 Route::get('/showkaryawan', [KaryawanController::class, 'showkaryawan']);
 Route::get('/editkaryawan/{karyawan}', [KaryawanController::class, 'edit']);
+Route::get('/deletekaryawan/{karyawan}', [KaryawanController::class, 'destroy']);
 
 Route::get('/cuti', [CutiController::class, 'showCreateForm'])->name('cuti');
 Route::get('/showcuti', [CutiController::class, 'showcuti']);
 Route::get('/editcuti/{cuti}', [CutiController::class, 'edit']);
+Route::get('/deletecuti/{cuti}', [CutiController::class, 'destroy']);
 
 Route::get('/', function () {
     return view('welcome');

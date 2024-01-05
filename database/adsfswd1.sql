@@ -48,7 +48,6 @@ INSERT INTO `cutis` (`id`, `tgl_cuti`, `lama_cuti`, `keterangan`, `id_karyawan`,
 (8, '2020-08-23', 1, 'sakit', 7, '2024-01-05 01:01:20', '2024-01-05 01:01:20'),
 (9, '2020-08-29', 5, 'Menikah', 4, '2024-01-05 01:02:32', '2024-01-05 01:02:32'),
 (10, '2020-08-30', 2, 'Acara Keluarga', 3, '2024-01-05 01:02:58', '2024-01-05 01:02:58'),
-(12, '2024-01-26', 5, 'acara keluarga', 12, '2024-01-05 01:56:45', '2024-01-05 01:56:45');
 
 -- --------------------------------------------------------
 
@@ -98,7 +97,6 @@ INSERT INTO `karyawans` (`id`, `no_induk`, `nama`, `alamat`, `tgl_lahir`, `tgl_b
 (8, 'IP06008', 'Octavanus', 'Jln A Yani 17, B 08 Sidoarjo', '1985-04-14', '2007-05-19', '2024-01-04 19:55:21', '2024-01-04 19:55:21'),
 (9, 'IP06009', 'Nugroho', 'Jln Duren tiga 167, Jakarta Selatan', '1984-01-01', '2008-01-16', '2024-01-04 19:55:21', '2024-01-04 19:55:21'),
 (10, 'IP06010', 'Raisa', 'Jln Kelapa Sawit, Jakarta Selatan', '1990-12-17', '2008-08-16', '2024-01-04 19:55:21', '2024-01-04 19:55:21'),
-(12, 'IP06011', 'Hamba Allah', 'kampung durian terbang', '2024-01-02', '2024-01-04', '2024-01-05 01:46:41', '2024-01-05 01:46:41');
 
 -- --------------------------------------------------------
 
@@ -184,8 +182,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'Zaqy Ramadhan', 'ramadhanz619@gmail.com', NULL, '$2y$12$xnEp5oOcPsV.LdQa1cDTj.FF2vGubSdmnaleUzQXZem/5fYs3sdtG', NULL, '2024-01-04 20:36:38', '2024-01-04 20:36:38'),
-(2, 'bawang', 'baw@ng.com', NULL, '$2y$12$IbKicFZav5HIuyQLTZacjOckTyZcrEGTTAr9i55fgTp0vfls77yBG', NULL, '2024-01-04 20:40:50', '2024-01-04 20:40:50');
+(1, 'Brian Mohamad Safiudin', 'brianms2004@gmail.com', NULL, '$2y$12$xnEp5oOcPsV.LdQa1cDTj.FF2vGubSdmnaleUzQXZem/5fYs3sdtG', NULL, '2024-01-04 20:36:38', '2024-01-04 20:36:38'),
+(2, 'admin', 'admin@gmail.com', NULL, '$2y$12$IbKicFZav5HIuyQLTZacjOckTyZcrEGTTAr9i55fgTp0vfls77yBG', NULL, '2024-01-04 20:40:50', '2024-01-04 20:40:50');
 
 --
 -- Indexes for dumped tables

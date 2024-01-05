@@ -81,7 +81,6 @@
             if (confirm('Apakah Anda yakin ingin menghapus data ini?')) {
                 // Send AJAX request to delete data
                 $.ajax({
-                    // url: '/api/karyawan/' + id+'/destroy', // Ganti dengan endpoint yang benar
                     url : '/api/cuti/'+id,
                     method: 'DELETE',
                     headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},

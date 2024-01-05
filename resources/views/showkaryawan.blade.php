@@ -81,7 +81,7 @@
             if (confirm('Apakah Anda yakin ingin menghapus data ini?')) {
                 // Send AJAX request to delete data
                 $.ajax({
-                    url : '/api/karyawan/'+id,
+                    url : 'api/karyawan/'+id,
                     method: 'DELETE',
                     headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
                     success: function(response) {
@@ -92,7 +92,7 @@
 
                         // Optional: Display success message
                         alert(response.message);
-                        window.location.href = "/showkaryawan";
+                        window.location.href = "/showkaryawan/" + id;
                     },
                     error: function(xhr, status, error) {
                         alert(response.message);
